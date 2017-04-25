@@ -1,6 +1,7 @@
 /*
 Desenvolvido por Roberto Caruso
 Controle de temperatura
+25-04-2017 - um sensor e um rele
 */
 	//---BIBLIOTECAS
 #include <LiquidCrystal.h>
