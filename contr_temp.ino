@@ -1,11 +1,12 @@
 /*
 Desenvolvido por Roberto Caruso
 Controle de temperatura
-25-04-2017 - um sensor e um rele
+25-04-2017 - um sensor LM35 e um rele
+Posteriormente substituir sensor para DS18B20
 */
 	//---BIBLIOTECAS
 #include <LiquidCrystal.h>
-	//---CONSTANTES
+  //---CONSTANTES
 const int LM35 = 0;
 float temperatura =0;
 int ADClido = 0;
@@ -64,4 +65,5 @@ void loop() {
      else {
        digitalWrite(Rele, LOW);
    }
+   
 }
